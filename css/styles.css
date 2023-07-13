@@ -80,7 +80,7 @@ body {
   }
   .card-sm {
     display: block;
-    width: 85%;
+    width: 80%;
     background-color: rgba(42, 33, 116, 1);
     border-radius: 10px;
     padding: 0.5rem 1rem;
@@ -155,7 +155,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     background-color: #2a2174;
-    margin: 1rem 1.5rem;
+    margin: 1rem 3.5rem;
     border-radius: 10px;
     gap: 1rem;
   }
