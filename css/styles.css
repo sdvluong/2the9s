@@ -1,9 +1,11 @@
 body {
-    width: 100%;
     max-width: 600px;
     background-color: #1c0f32;
     color: #fbfafa;
     margin: 0 auto 100px auto;
+  }
+  .wrapper{
+    max-width: 600px;
   }
   .top-bar {
     display: flex;
