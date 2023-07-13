@@ -2,7 +2,7 @@ body {
     max-width: 600px;
     background-color: #1c0f32;
     color: #fbfafa;
-    margin: 0 0 100px 0;
+    margin: 0 auto 100px auto;
   }
   .top-bar {
     display: flex;
@@ -104,6 +104,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 90vw;
+    max-width: 540px;
     height: 80px;
     margin: 0;
     padding: 0 1.5rem;
