@@ -1,4 +1,5 @@
 body {
+    max-width: 600px;
     background-color: #1c0f32;
     color: #fbfafa;
     margin: 0 0 100px 0;
