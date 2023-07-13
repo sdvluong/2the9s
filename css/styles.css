@@ -1,0 +1,177 @@
+body {
+    background-color: #1c0f32;
+    color: #fbfafa;
+    margin: 0 0 100px 0;
+  }
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .fa-signal,
+  .fa-wifi {
+    font-size: 12px;
+  }
+  .fa-battery-half {
+    font-size: 13px;
+  }
+  .fa-plus {
+    font-size: 20px;
+  }
+  
+  .figure {
+    background-image: url("https://sdvluong.github.io/hosted-assets/unsplash_kCX1lhaR5Z4.png");
+    width: 85%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+  }
+  .fitpic {
+    min-width: 100%;
+  }
+  .caption {
+    background-color: rgba(167, 153, 226, 0.8);
+    padding: 8px 10px;
+    border-radius: 10px;
+    height: 22px;
+  }
+  .captiontext {
+    display: inline;
+    font-size: 0.75rem;
+  }
+  .fa-angle-down {
+    margin-left: 10px;
+    font-size: 1rem;
+    position: relative;
+    top: 2px;
+  }
+  
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+  }
+  h1 {
+    font-family: Dela Gothic One, Arial Black, cursive;
+    font-size: 1.5rem;
+  }
+  
+  h2,
+  h3,
+  p {
+    font-family: Poppins, sans-serif;
+  }
+  h3 {
+    font-weight: normal;
+  }
+  .card-sm {
+    display: block;
+    width: 85%;
+    background-color: rgba(42, 33, 116, 1);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    text-decoration: none;
+    color: #fbfafa;
+  }
+  .descriptor {
+    float: right;
+  }
+  .fa-calendar,
+  .fa-heart,
+  .fa-circle-question {
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+  .fa-calendar {
+    margin-left: 1rem;
+  }
+  .fa-heart,
+  .fa-circle-question {
+    margin-left: 0.9rem;
+  }
+  
+  nav ul {
+    position: fixed;
+    bottom: 0;
+    width: 90vw;
+    height: 80px;
+    margin: 0;
+    padding: 0 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(29, 23, 73, 0),
+      rgba(29, 23, 73, 0.7),
+      rgba(29, 23, 73, 0.85),
+      rgba(29, 23, 73, 0.9),
+      rgba(28, 15, 50, 1)
+    );
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fafafa;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    font-size: 1.3rem;
+  }
+  #homeicon,
+  #closeticon,
+  #eyeicon {
+    width: 30px;
+  }
+  #plusicon {
+    width: 40px;
+  }
+  #boxicon {
+    width: 25px;
+  }
+  
+  .card-l {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #2a2174;
+    margin: 1rem 1.5rem;
+    border-radius: 10px;
+    gap: 1rem;
+  }
+  
+  .textcard {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1rem;
+  }
+  .cardpic {
+    margin: 1.5rem 1rem;
+    object-fit: contain;
+  }
+  
+  button {
+    border-radius: 15px;
+    width: 160px;
+    padding: 10px 15px;
+    background-color: #1c0f32;
+    color: #fbfafa;
+    font-family: Poppins, sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #fbfafa;
+  }
+  
